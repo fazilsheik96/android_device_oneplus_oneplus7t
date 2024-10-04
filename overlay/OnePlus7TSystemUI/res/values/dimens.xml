@@ -37,4 +37,9 @@
     <!-- Radius of the software rounded corners at the bottom of the display
          in its natural orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="config_rounded_mask_size_bottom">85px</dimen>
+
+    <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
+    relies on this value will not be sized correctly. -->
+    <item name="pixel_pitch" format="float" type="dimen">63.22</item>
+
 </resources>
